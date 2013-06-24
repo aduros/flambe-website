@@ -18,7 +18,7 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li><a href="/games">Games</a></li>
+          <li {% if page.nav == "games" %}class="active"{% endif %}><a href="/games">Games</a></li>
           <li><a href="#">Learn</a></li>
           <li><a href="#">Forum</a></li>
           <li><a href="#">Blog</a></li>
@@ -26,7 +26,7 @@
         <a class="pull-left" href="/">
           <img src="/img/logo.png">
         </a>
-        <h3 class="muted">Flambe</h3>
+        <a href="/"><h3 class="muted">Flambe</h3></a>
       </div>
 
       <hr>

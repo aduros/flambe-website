@@ -1,14 +1,17 @@
 ---
 layout: default
 title: Games &middot; Flambe
+nav: games
 ---
 
-<h2>Games</h2>
-
-<p>TODO: Make this prettier, with images and descriptions, etc.</p>
-
-<ul>
-{% for game in site.games %}
-<li><a href="{{ game.url }}">{{ game.name }}</a></li>
-{% endfor %}
-</ul>
+<div class="games container-fluid">
+  {% for game in site.games %}
+    {% cycle '<div class="row-fluid">', '' %}
+    <div class="game span6">
+      <h4>{{ game.title }}</h4>
+      <a href="{{ game.url }}"><img src="http://placehold.it/300x200"></a>
+      <p class="muted">by {{ game.developer }}</p>
+    </div>
+    {% if forloop.last %}</div>{% else %}{% cycle '', '</div>' %}{% endif %}
+  {% endfor %}
+</div>

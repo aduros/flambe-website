@@ -15,8 +15,30 @@ blurbs:
       body: Some extra text describing this feature and why it's amazing.
 
 games:
-    - name: Everybody Runs
-      url: https://www.facebook.com/appcenter/everybodyruns
+    - title: Tweet Fighter
+      url: http://tweetfighter.nl
+      developer: <a href="https://mediamonks.com">MediaMonks</a>
 
-    - name: Space Date
+    - title: Bubble Guppies&colon; Firefighters
+      url: http://www.nickjr.com/kids-ad-entry.html?url=/kids-games/bubble-guppies-firefighters.html
+      developer: <a href="http://seven2.net">Seven2</a>
+
+    - title: Everybody Runs
+      url: https://www.facebook.com/appcenter/everybodyruns
+      developer: <a href="https://aduros.com">Bruno Garcia</a>
+
+    - title: Space Date
       url: https://aduros.com/space-date
+      developer: <a href="https://aduros.com">Bruno Garcia</a>
+
+    - title: Another Game
+      url: https://www.facebook.com/appcenter/everybodyruns
+      developer: <a href="https://aduros.com">Bruno Garcia</a>
+
+    - title: Another Game
+      url: https://aduros.com/space-date
+      developer: <a href="https://aduros.com">Bruno Garcia</a>
+
+    - title: Another Game
+      url: https://aduros.com/space-date
+      developer: <a href="https://aduros.com">Bruno Garcia</a>
