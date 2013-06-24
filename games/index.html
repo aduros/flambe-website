@@ -1,0 +1,14 @@
+---
+layout: default
+title: Games &middot; Flambe
+---
+
+<h2>Games</h2>
+
+<p>TODO: Make this prettier, with images and descriptions, etc.</p>
+
+<ul>
+{% for game in site.games %}
+<li><a href="{{ game.url }}">{{ game.name }}</a></li>
+{% endfor %}
+</ul>

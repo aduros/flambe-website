@@ -1,0 +1,22 @@
+name: Flambe
+pygments: true
+
+blurbs:
+    - title: Tastes Like Chicken
+      body: Some extra text describing this feature and why it's amazing.
+
+    - title: Tastes Like Beef
+      body: Some extra text describing this feature and why it's amazing.
+
+    - title: Tastes Like Pork
+      body: Some extra text describing this feature and why it's amazing.
+
+    - title: Tastes Like Fish
+      body: Some extra text describing this feature and why it's amazing.
+
+games:
+    - name: Everybody Runs
+      url: https://www.facebook.com/appcenter/everybodyruns
+
+    - name: Space Date
+      url: https://aduros.com/space-date
