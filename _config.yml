@@ -1,5 +1,6 @@
 name: Flambe
 pygments: true
+exclude: ["bin", "vimbuild"]
 
 blurbs:
     - title: Tastes Like Chicken
