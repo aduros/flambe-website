@@ -8,8 +8,8 @@ nav: games
   {% for game in site.games %}
     {% cycle '<div class="row-fluid">', '' %}
     <div class="game span6">
-      <h4>{{ game.title }}</h4>
       <a href="{{ game.url }}"><img src="http://placehold.it/300x200"></a>
+      <h4>{{ game.title }}</h4>
       <p class="muted">by {{ game.developer }}</p>
     </div>
     {% if forloop.last %}</div>{% else %}{% cycle '', '</div>' %}{% endif %}
