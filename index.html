@@ -49,16 +49,3 @@ title: Flambe
     suite of unit and integration tests. Contributions are encouraged!</p>
   </div>
 </div>
-
-<hr>
-
-<div class="blurbs">
-  {% for blurb in site.blurbs %}
-  <div class="blurb">
-    <img class="pull-{% cycle 'left', 'right' %}" src="http://placehold.it/200" width="200" height="200">
-    <h2>{{ blurb.title }}</h2>
-    <p>{{ blurb.body }}</p>
-  </div>
-  {% if forloop.last == false %}<hr>{% endif %}
-  {% endfor %}
-</div>
