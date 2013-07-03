@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+jekyll build
+rsync -avz --delete _site/ catdap:getflambe.com/
